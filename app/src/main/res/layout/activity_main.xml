@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/colorPrimaryDark"/>
+        android:background="@color/colorPrimaryDark"
+        />
 
     <ProgressBar
         android:id="@+id/artistsProgressbar"
@@ -35,6 +36,17 @@
         app:layout_constraintTop_toBottomOf="@id/artistsProgressbar"
         app:layout_constraintBottom_toBottomOf="parent"
         />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24dp"
+        android:text="No results found"
+        android:gravity="center"
+        android:visibility="gone"/>
 
 
 

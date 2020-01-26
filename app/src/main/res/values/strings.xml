@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LastFMSearch</string>
+    <string name="query_hint">Type search phrase</string>
+    <string name="no_results">No results found</string>
+    <string name="fetch_error">Fetching failed</string>
+    <string name="no_network">Your device is offline</string>
 </resources>

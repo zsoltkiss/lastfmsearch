@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LastFMSearch</string>
+    <string name="query_hint">Előadó neve?</string>
+    <string name="no_results">Nincs találat</string>
+    <string name="fetch_error">Nem sikerült a lekérdezés</string>
+    <string name="no_network">Nincs internet</string>
+</resources>
